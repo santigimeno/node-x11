@@ -43,7 +43,7 @@
     "sinon": "*"
   },
   "scripts": {
-    "test": "node test-runner.js",
+    "test": "xtrace -n node test-runner.js",
     "prepublish": "npm prune"
   }
 }
